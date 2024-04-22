@@ -14,7 +14,7 @@ module.exports = {
           sidebarDepth: 2,    // 可选的, 默认值是 1
           children: [
             '/Transport Layer/Reliable Data Transport',
-            '/Transport Layer/TCP Protocol',
+            '/Transport Layer/TCP',
             '/Transport Layer/UDP',
           ]
         },
