@@ -1,5 +1,6 @@
 module.exports = {
     title:"Computer Network Docs",
+    base:"/network_docs/",
     themeConfig: {
       navbar: true,
       nav: [
