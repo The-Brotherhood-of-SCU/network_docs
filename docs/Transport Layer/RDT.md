@@ -16,7 +16,11 @@ Tag packet with segment number (i++)
 
 ## RDT3.0
 RDT over a `lossy channel with bit error`
+
+### Strategy
 - retransmit if no ACK received(timeout)
+
+### Scenario
 - if a packet just delayed not lost:
   - retransmission will be duplicated(solved by seq_number)
 
