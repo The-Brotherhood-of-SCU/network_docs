@@ -7,6 +7,7 @@ export default defineConfig({
   description: "computer network course docs",
   lastUpdated: true,
   themeConfig: {
+    logo:"logo.png",
     editLink: {
       pattern: 'https://github.com//The-Brotherhood-of-SCU/network_docs/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
