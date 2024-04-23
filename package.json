@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.1.3",
     "vuepress": "^1.9.10"
   },
@@ -12,7 +13,6 @@
     "docs:dev_vue": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
     "docs:build_vue": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
     "docs:build_vue_linux": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
-
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

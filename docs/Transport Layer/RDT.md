@@ -27,7 +27,8 @@ RDT over a `lossy channel with bit error`
 
 $$
 T_{transmit}=\frac{8\times 10^3 b/pkt}{1\times10^9b/s}=8\times 10^{-6}s
-\newline
+$$
+$$
 RTT=15ms\times 2=3\times 10^{-2}s
 $$
 1KB every ~30ms $\Rightarrow$ 33KB/s over a 1Gbps link
