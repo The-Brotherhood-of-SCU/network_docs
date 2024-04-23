@@ -4,11 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Network Docs",
   description: "computer network course docs",
-  editLink: {
-    pattern: 'https://github.com//The-Brotherhood-of-SCU/network_docs/edit/main/docs/:path',
-    text: 'Edit this page on GitHub'
-  },
+  lastUpdated: true,
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com//The-Brotherhood-of-SCU/network_docs/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
