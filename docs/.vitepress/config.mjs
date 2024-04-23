@@ -142,7 +142,13 @@ export default defineConfig({
           {text:"Transmission Control Protocol",link:"/Transport Layer/TCP"},
         ]
       },
-      {text:"About",link:"about"}
+      {
+        text: 'About',
+        items: [
+          {text:"About The Doc",link:"about"}
+        ]
+      },
+      
 
     ],
 
