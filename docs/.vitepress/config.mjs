@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Network Docs",
+  base:"/network_docs/",
   description: "computer network course docs",
   lastUpdated: true,
   themeConfig: {
