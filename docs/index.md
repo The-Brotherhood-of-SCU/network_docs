@@ -1,29 +1,14 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: 
+layout: home
 
 hero:
   name: "Network Docs"
   text: "computer network course docs"
-  tagline: 
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  tagline: Sichuan University
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-# Computer Network Course Docs
 
 This doc is under the instructions of *Computer Network:A Top-Down Approach*
 
