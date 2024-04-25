@@ -126,6 +126,16 @@ export default defineConfig({
       {
         text: 'Application Layer',
         items: [
+          {text:"Overview",link:"/Application Layer/Overview"},
+        ]
+      },
+      {
+        text: 'Transport Layer',
+        items: [
+          {text: 'Overview',link:"/Transport Layer/Overview"},
+          {text:"Reliable Data Transport",link:"/Transport Layer/RDT"},
+          {text:"User Datagram Protocol",link:"/Transport Layer/UDP"},
+          {text:"Transmission Control Protocol",link:"/Transport Layer/TCP"},
         ]
       },
       {
@@ -134,14 +144,7 @@ export default defineConfig({
 
         ]
       },
-      {
-        text: 'Transport Layer',
-        items: [
-          {text:"Reliable Data Transport",link:"/Transport Layer/RDT"},
-          {text:"User Datagram Protocol",link:"/Transport Layer/UDP"},
-          {text:"Transmission Control Protocol",link:"/Transport Layer/TCP"},
-        ]
-      },
+
       {
         text: 'About',
         items: [
