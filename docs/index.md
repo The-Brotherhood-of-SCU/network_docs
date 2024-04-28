@@ -6,7 +6,13 @@ hero:
   name: "Network Docs"
   text: "computer network course docs"
   tagline: Sichuan University
-
+  actions:
+    - theme: brand
+      text: Read Docs
+      link: /Application Layer/Overview
+    - theme: alt
+      text: Github
+      link: https:/github.com/The-Brotherhood-of-SCU/network_docs
 ---
 
 
