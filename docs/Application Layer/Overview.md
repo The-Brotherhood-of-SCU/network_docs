@@ -9,7 +9,9 @@ user agent: an interface between user & application
 - mail reader
 - media player
 
-IPC: inter-process communication
+**Process**: a program that is running within a host
+
+IPC: inter-process communication (defined by the OS)
 
 client/server: 
 - client

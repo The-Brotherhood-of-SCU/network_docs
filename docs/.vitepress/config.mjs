@@ -127,6 +127,7 @@ export default defineConfig({
         text: 'Application Layer',
         items: [
           {text:"Overview",link:"/Application Layer/Overview"},
+          {text:"Principles of Application Layer Protocols",link:"/Application Layer/Principles of Application Layer Protocols"},
         ]
       },
       {
