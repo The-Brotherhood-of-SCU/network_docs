@@ -14,3 +14,28 @@
   - typically requests service from server
 - Server
   - provides requests service to client
+
+## Application-layer protocols
+- **defines interface between application and transport layer**
+- **socket** -> Internet API
+  - two processes commiunicate by sending data to socket and reading data from socket
+
+## Services provided by Internet transport protocols
+- **TCP**
+  - **connection-oriented**: setup required between client and server
+  - **reliable transport**: between sending and receiving process
+  - **flow control**: sender won't overwhelm receiver
+  - **congestion control**: throttle sender when network overloaded
+  - **Not provided**: 
+    > timing  
+    > minimum bandwidth guarantees
+
+- **UDP**
+  - **lightweight**: unreliable data transfer between sending and receiving process
+  - **Not provided**:
+    > connection setup  
+    > reliability  
+    > flow control  
+    > congestion control  
+    > timing  
+    > any bandwidth guarantee

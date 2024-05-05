@@ -4,18 +4,22 @@
 
 ## Jargon(术语)
 
-user agent: an interface between user & application
+**user agent**: an interface between user & application
 - browser
 - mail reader
 - media player
 
 **Process**: a program that is running within a host
 
-IPC: inter-process communication (defined by the OS)
+**IPC**: inter-process communication (defined by the OS)
 
 client/server: 
-- client
+- **client**
   - initiates contact(speak first)
+- **server**
+  - provide service
+
+**API**: application programming interface
 
 ## Interface
 
@@ -43,7 +47,7 @@ This is a interface between `application layer` & `transport layer`
 stateless (keeping states is complex)
 
 #### Request
-::: info HTTP.GET(client2server)
+::: info HTTP.GET(client to server)
 ``` html 
 GET /xxxx/xxx.html HTTP/1.0
 User-agent:Mozilla/4.0
