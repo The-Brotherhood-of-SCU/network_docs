@@ -128,6 +128,10 @@ export default defineConfig({
         items: [
           {text:"Overview",link:"/Application Layer/Overview"},
           {text:"Principles of Application Layer Protocols",link:"/Application Layer/Principles of Application Layer Protocols"},
+          {text:"DNS",link:"/Application Layer/DNS"},
+          {text:"FTP",link:"/Application Layer/FTP protocol"},
+          {text:"HTTP",link:"/Application Layer/HTTP protocol"},
+          {text:"SMTP",link:"/Application Layer/SMTP protocol"},
         ]
       },
       {
