@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import mathjax3 from 'markdown-it-mathjax3';
+import { withPwa } from '@vite-pwa/vitepress'
 
 const customElements = [
   'math',
@@ -93,7 +94,8 @@ const customElements = [
 ];
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
+  pwa:{},
   title: "Network Docs",
   base:"/network_docs/",
   description: "computer network course docs",
@@ -165,3 +167,4 @@ export default defineConfig({
     ]
   }
 })
+)
