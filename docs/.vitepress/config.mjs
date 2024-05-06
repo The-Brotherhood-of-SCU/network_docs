@@ -155,7 +155,9 @@ export default withPwa(defineConfig({
       {
         text: 'Transport Layer',
         items: [
+          {text: 'Introduction',link:"/Transport Layer/Introduction"},
           {text: 'Overview',link:"/Transport Layer/Overview"},
+          {text: 'De/Multiplexing',link:"/Transport Layer/Multiplexing and demultiplexing"},
           {text:"Reliable Data Transport",link:"/Transport Layer/RDT"},
           {text:"User Datagram Protocol",link:"/Transport Layer/UDP"},
           {text:"Transmission Control Protocol",link:"/Transport Layer/TCP"},

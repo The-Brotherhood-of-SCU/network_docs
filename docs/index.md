@@ -12,7 +12,9 @@ hero:
       link: /Application Layer/Overview
     - theme: alt
       text: Github
-      link: https:/github.com/The-Brotherhood-of-SCU/network_docs
+      link: https://github.com//The-Brotherhood-of-SCU/network_docs
+            
+      
 ---
 
 
