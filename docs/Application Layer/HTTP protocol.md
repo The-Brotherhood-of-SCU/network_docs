@@ -1,5 +1,5 @@
 # HTTP protocol
-**HyperText Transfer Protocol(超文本传送协议)**
+## **HyperText Transfer Protocol(超文本传送协议)**
 
 client/server model
 - client: **browser** that requests, receives and "displays" the web objects
@@ -10,7 +10,7 @@ HTTP 1.0 - **RFC 1945**
 HTTP 1.1 - **RFC 2068**  
 Port - **80**
 
-**Stateless**
+## **Stateless**
 > server maintains no information about past client requests
 
 - Non-persistent
@@ -25,7 +25,7 @@ Port - **80**
  - **Fewer RTTs**
  - **Less slow start**
 
-**HTTP message format**
+## **HTTP message format**
 - **Request**
   - request line
     > method URL version
@@ -118,7 +118,7 @@ Port - **80**
   - data
     > data here...
 
-**Web Caches**
+## **Web Caches**
 > satisfy client request without involving origin server
 
 - **web accesses via web cache**
