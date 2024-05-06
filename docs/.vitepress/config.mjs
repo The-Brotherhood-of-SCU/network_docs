@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import mathjax3 from 'markdown-it-mathjax3';
+import { withPwa } from '@vite-pwa/vitepress'
 
 const customElements = [
   'math',
@@ -93,10 +94,27 @@ const customElements = [
 ];
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
+  pwa:{
+    manifest: {
+      name: 'Network Docs',
+      short_name: 'Network',
+      theme_color: '#ffffff',
+      orientation: "any",
+      start_url:".",
+      icons:[
+        {src:"/network_docs/android-chrome-192x192.png",sizes:"192x192",type:"image/png",purpose: "maskable"},
+        {src:"/network_docs/android-chrome-512x512.png",sizes:"512x512",type:"image/png",purpose: "maskable"},
+        {src:"/network_docs/apple-touch-icon.png",sizes:"180x180",type:"image/png",purpose: "maskable"},
+        {src:"/network_docs/favicon-16x16.png",sizes:"16x16",type:"image/png"},
+        {src:"/network_docs/favicon-32x32.png",sizes:"16x16",type:"image/png"},
+      ]
+    },
+  },
   title: "Network Docs",
   base:"/network_docs/",
   description: "computer network course docs",
+  icon:"/logo.png",
   lastUpdated: true,
   markdown: {
     config: (md) => {
@@ -165,3 +183,4 @@ export default defineConfig({
     ]
   }
 })
+)
