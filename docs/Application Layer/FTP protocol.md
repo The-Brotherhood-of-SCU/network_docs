@@ -1,4 +1,4 @@
-# FTP protocol
+# FTP Protocol
 ## **File Transfer Protocol(文件传输协议)**
 
 client/server model

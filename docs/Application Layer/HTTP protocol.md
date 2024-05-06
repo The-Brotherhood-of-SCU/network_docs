@@ -1,4 +1,4 @@
-# HTTP protocol
+# HTTP Protocol
 ## **HyperText Transfer Protocol(超文本传送协议)**
 
 client/server model
