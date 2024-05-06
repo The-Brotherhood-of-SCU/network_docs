@@ -95,10 +95,19 @@ const customElements = [
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
-  pwa:{},
+  pwa:{
+    manifest: {
+      name: 'Network Docs',
+      short_name: 'Network',
+      theme_color: '#ffffff',
+      orientation: "any",
+      start_url:".",
+    },
+  },
   title: "Network Docs",
   base:"/network_docs/",
   description: "computer network course docs",
+  icon:"/logo.png",
   lastUpdated: true,
   markdown: {
     config: (md) => {
