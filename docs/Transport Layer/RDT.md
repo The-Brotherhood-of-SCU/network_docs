@@ -1,9 +1,34 @@
 # Reliable Data Transport
 
+- sending side
+  - rdt_send(data) -> packet
+    > called from above(e.g. by application). Passed data to deliver to receiver upper layer
+  - udt_send(packet)
+    > called by RDT, to transfer packet over unrealiable channel to receiver
+- receiving side
+  - rdt_rcv() -> packet
+    > called when packet arrives on receive-side of channel
+  - deliver_data(packet) -> data
+    > called by RDT to deliver data to upper layer
+
+### **What to do**
+- develop sender, receiver sides of reliable data transfer protocol
+- consider only unidirectional data transfer
+  - control information will flow on both directions
+- Use **Finite State Machines(FSM)** to specify sender, receiver
+
 ## RDT1.0
 Reliable transfer over a `reliable channel`
+- underlying perfectly reliable channel
+  - no bit errors
+  - no loss of packets
+- separate FSMs for sender, receiver
+  - sender sends data into underlying channel
+  - receiver reads data from underlying channel
+
 ## RDT2.0
 Reliable transfer over a `channel with bit error`
+
 
 ### Fatal Flaw
 `ACK` `NAK` may be corrupted
