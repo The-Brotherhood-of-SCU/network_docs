@@ -19,3 +19,4 @@ Provide logic communication between `Process`
 ## Notions
 
 - multiplexion/demultiplexing(port)
+- FSM: Finite State Machines
