@@ -1,5 +1,5 @@
 # SMTP protocol
-**Simple Mail Transfer Protocol(简单邮件传输协议)**
+## **Simple Mail Transfer Protocol(简单邮件传输协议)**
 
 transport protocol - **TCP**  
 SMTP - **RFC 821**  
@@ -15,7 +15,7 @@ port - **25**
   - client: sending mail server
   - server: receiving mail server
 
-**Feature**
+## **Feature**
 - **direct** transfer: sending server to receiving server
 - command/response interaction
   - command: **ASCII text**
@@ -25,13 +25,13 @@ port - **25**
 - SMTP server uses **CRLF**
   - **CRLF** - determine the end of message
 
-**Comparsion**
+### **Comparsion**
 ||HTTP|SMTP|
 |:----:|:----:|:----:|
 |operation|pull|push|
 |object|each object is encapsulated in its own response message|multiple objects message sent in a multipart message|
 
-**Mail message format**
+## **Mail message format**
 - **RFC 822**
 - header lines
   - To:
@@ -59,7 +59,7 @@ MIME types
     - msword
     - octet-stream
 
-**Mail access protocols**
+## **Mail access protocols**
 - SMTP: delivery/storage to receiver's server
 - Mail access protocol: **retrival from server**
   - **POP**: Post Office Protocol(RFC 1939)

@@ -1,5 +1,5 @@
 # FTP protocol
-**File Transfer Protocol(文件传输协议)**
+## **File Transfer Protocol(文件传输协议)**
 
 client/server model
 - client: initiates transfer(to/from remote)
@@ -10,7 +10,7 @@ transport protocol - **TCP**
 FTP - **RFC 959**
 Port - **21**
 
-**Two parallel TCP connections**
+## **Two parallel TCP connections**
 - Control: exchange commands, responses between client and server (**out of band control**)
 - Data: file data to/from server
 

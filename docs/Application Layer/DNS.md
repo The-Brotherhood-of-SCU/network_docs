@@ -1,27 +1,27 @@
 # DNS
-**Domain Name System(域名系统)**
+## **Domain Name System(域名系统)**
 
 - **distributed database** implemented in hierarchy of many **name servers**
 - **application-layer protocol** host, routers, name servers to communicate to resolve names(address/name translation)
   - NOTE: core Internet function implemented as **application-layer protocol**
   - complexity at network's "edge"
 
-**No centralized DNS**
+### **No centralized DNS**
 - single point of failure
 - traffic volume
 - distant centralized database
 - maintenance
 - no server has all name-to-IP address mappings
 
-**local name servers**
+### **local name servers**
 - each ISP, company has local(default) name server
 - host DNS query first goes to local name server
 
-**authoritative name server**
+### **authoritative name server**
 - for a host: stores that host‟s IP address, name
 - can perform name/address translation for that host‟s name
 
-**Root name server**
+### **Root name server**
 - **contacted by local name server that can not resolve name**
 - features
   - contacts authoritative name server if name mapping not known
@@ -29,7 +29,7 @@
   - returns mapping to local name server
 - dozen root name servers worldwide
 
-**Query**
+## **Query**
 - **recursive query**
   - puts burden of name resolution on contacted name server
   - heavy load?
@@ -43,7 +43,7 @@ caching and updating records
 - update/notify mechanisms under design by IETF
   - **RFC 2136**
 
-**records**
+## **records**
 - distributed database storing Resource Records(RR)
 - RR format: **(name, value, type, ttl)**
 
@@ -54,7 +54,7 @@ caching and updating records
 |CNAME|an alias name for some "canonical"(the real) name|canonical name|
 |MX|what the hostname is associated with|hostname of mailserver|
 
-**DNS protocol**
+## **DNS protocol**
 > **query** and **reply** messages, both with the same message format
 - header(12 bytes)
   - **identification**(2 bytes): uses the same for query, reply to query 
