@@ -68,3 +68,6 @@ MIME types
     - more features(more complex)
     - manipulation of stored msgs on server
   - HTTP(Web-Based Email): Hotmail, Yahoo! Mail, etc.
+
+## Protocol between mail server&user pc
+pop3/IMAP

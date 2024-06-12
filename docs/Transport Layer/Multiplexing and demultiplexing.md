@@ -1,5 +1,8 @@
 # Multiplexing/Demultiplexing
 
+## Core
+**Port Number**
+
 ## **segment**(数据段)
 > unit of data exchanged between transport layer entities
 - TPDU: transport protocol data unit

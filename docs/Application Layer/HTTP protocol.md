@@ -10,6 +10,12 @@ HTTP 1.0 - **RFC 1945**
 HTTP 1.1 - **RFC 2068**  
 Port - **80**
 
+## Distingulish
+|HTTP 1.0|HTTP 1.1|
+|:---:|:---:|
+|a TCP tranmit one object|TCP transmit multiple objects|
+
+
 ## **Stateless**
 > server maintains no information about past client requests
 

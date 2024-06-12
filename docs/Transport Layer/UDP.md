@@ -12,6 +12,8 @@
   - no congestion control
 
 ## header
+8 bytes
+
 |16bit|16bit|
 |:---:|:---:|
 |source port|dest port|

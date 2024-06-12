@@ -27,6 +27,8 @@ client/server:
 
 This is a interface between `application layer` & `transport layer`
 
+enables the application to connect to network
+
 ## How to identify the other process
 - IP address
 - Port number
