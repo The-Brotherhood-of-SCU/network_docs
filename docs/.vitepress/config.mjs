@@ -142,6 +142,13 @@ export default withPwa(defineConfig({
 
     sidebar: [
       {
+        text: 'Internet Overview',
+        items: [
+          {text:"Overview",link:"/Overview/Internet"},
+          {text:"不考内容",link:"/Overview/不考内容"},
+        ]
+      },
+      {
         text: 'Application Layer',
         items: [
           {text:"Overview",link:"/Application Layer/Overview"},
@@ -166,7 +173,20 @@ export default withPwa(defineConfig({
       {
         text: 'Network Layer',
         items: [
-
+          {text:"Overview",link:"/Network Layer/Overview"},
+          {text:"Router",link:"/Network Layer/Router"},
+          {text:"Router",link:"/Network Layer/Gateway"},
+          {text:"IP",link:"/Network Layer/IP"},
+          {text:"IPv6",link:"/Network Layer/IPv6"},
+        ]
+      },
+      {
+        text: 'Data Link Layer',
+        items: [
+          {text:"MAC",link:"/Network Layer/MAC protocol"},
+          {text:"Ethernet",link:"/Network Layer/Ethernet"},
+          {text:"Switch",link:"/Network Layer/Switch"},
+          {text:"Wireless",link:"/Network Layer/Wireless"},
         ]
       },
 
