@@ -183,10 +183,10 @@ export default withPwa(defineConfig({
       {
         text: 'Data Link Layer',
         items: [
-          {text:"MAC",link:"/Network Layer/MAC protocol"},
-          {text:"Ethernet",link:"/Network Layer/Ethernet"},
-          {text:"Switch",link:"/Network Layer/Switch"},
-          {text:"Wireless",link:"/Network Layer/Wireless"},
+          {text:"MAC",link:"/Data Link Layer/MAC protocol"},
+          {text:"Ethernet",link:"/Data Link Layer/Ethernet"},
+          {text:"Switch",link:"/Data Link Layer/Switch"},
+          {text:"Wireless",link:"/Data Link Layer/Wireless"},
         ]
       },
 
