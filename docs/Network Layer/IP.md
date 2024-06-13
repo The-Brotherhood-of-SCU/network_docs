@@ -12,3 +12,5 @@
 
 
 ## Fragmentation
+
+when the size of a packet is greater that the MTU of the media, the router will split the packet into small fragment.
