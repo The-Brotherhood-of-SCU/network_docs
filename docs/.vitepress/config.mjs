@@ -145,6 +145,7 @@ export default withPwa(defineConfig({
         text: 'Internet Overview',
         items: [
           {text:"Overview",link:"/Overview/Internet"},
+          {text:"Delay",link:"/Overview/Delay"},
           {text:"不考内容",link:"/Overview/不考内容"},
         ]
       },
