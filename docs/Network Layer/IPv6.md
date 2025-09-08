@@ -1,4 +1,4 @@
-
+# IPv6
 
 ## IP length
 128 bit
@@ -8,5 +8,5 @@
 
 ## cooperation with IPv4
 
-- dual stack
-- tunneling 
+- dual stack(a router can interpret IPv4/6 packet at same time)
+- tunneling(wrap the IPv6 packet with IPv4 packet) 
