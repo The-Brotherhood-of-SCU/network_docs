@@ -7,6 +7,7 @@ protocol ≈ format + order
 RFC(互联网文件系列): Request for Comments
 IETF（标准的制定者）: Internet Engineering Task Force
 TP: twisted pair 双绞线
+TTL：time to live 一个整数，最多能经过的跳数。（每经过一跳，该值减一）
 
 ## Network Edges(host)
 1. end systems
@@ -35,9 +36,20 @@ between edge and core: edge router
 
 ## transmission rate
 
-aka link capacity, link bandwidth
+aka link capacity, link bandwidth 
 
-指网卡吞吐量，将信息转化为01001物理信号的速率。
+指网卡将信息转换为物理信号的速率，将信息转化为01001物理信号的速率。一般是理论值。
+
+一个链路层如下：
+$$
+\boxed{\text{Network Interface}}-\boxed{\text{Link}}-\boxed{{\text{Network Interface2}}}
+$$
+
+网卡会先在链路层上协商，使得双方的传输速率一致。
+
+## throuhgout
+
+吞吐量：单位时间内实际流过网络链路的数据量
 
 ## Service Model
 client-server
