@@ -26,12 +26,12 @@ between edge and core: edge router
 2. prop delay
 
 ## Layers
-|Layer|Computer|
-|----|----|
-|Application| process|
-|Transport| TCP/UDP system kernel module|
-|Network| IP system kernel module|
-|Link| driver + Network Interface Card |
+|Layer|Computer|packet name|
+|----|----|---|
+|Application| process|message
+|Transport| TCP/UDP system kernel module|segment
+|Network| IP system kernel module|datagram
+|Link| driver + Network Interface Card |frame
 |Physical| Network Interface Card|
 
 ## transmission rate

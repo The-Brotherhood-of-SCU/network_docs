@@ -72,3 +72,29 @@ caching and updating records
   - answers: RRs in reponse to query
   - authority: records for authoritative servers
   - additional information: additional "helpful" info that may be used
+
+
+
+## Hierarchy
+```mermaid
+graph TD;
+    A[Root Name Servers] --> B["Top-Level DNS(TLD)"];
+    A1["/"]-->B1[.com];
+    A1-->B2[.org];
+    A1-->B3[.net];
+    A1-->B4[.io];
+    A1-->B5[.tech];
+    B --> C[authoritative DNS];
+    B1-->C1[taobao.com]
+    B1-->C2[baidu.com]
+    B4-->C3[github.io]
+```
+
+Note: 根DNS与顶级DNS不储存域名映射，而是指引。
+
+```mermaid
+graph LR;
+A[User]-->B[local DNS]-->C[Pulic DNS]
+```
+
+local DNS通过cache代理用户的查询，减少对公共DNS的查询次数，加快查询速度。
