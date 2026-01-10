@@ -177,7 +177,7 @@ export default withMermaid(defineConfig({
         items: [
           {text:"Overview",link:"/Network Layer/Overview"},
           {text:"Router",link:"/Network Layer/Router"},
-          {text:"Router",link:"/Network Layer/Gateway"},
+          {text:"Gateway",link:"/Network Layer/Gateway"},
           {text:"IP",link:"/Network Layer/IP"},
           {text:"IPv6",link:"/Network Layer/IPv6"},
         ]

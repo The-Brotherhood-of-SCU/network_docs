@@ -4,11 +4,15 @@ gateway is a special router which is able to interpret inter/intra AS protocols 
 
 ## Intra-AS Routing
 
-- RIP:Routing infimation protocol
-- OSPF:open shortest path first
+- RIP:Routing infimation protocol :distance vector protocol
+- OSPF:open shortest path first :link state protocol
 
 ## inter-AS router
 BGP:border gateway protocol
+- iBGP:internal BGP 
+- eBGP:external BGP
+
+
 
 ## Difference
 
